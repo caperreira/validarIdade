@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(105, 105, 236, 0.705);
+  overflow: hidden;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 1rem;
+  width: 600px;
+  height: auto;
+  margin: auto;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.246);
+  display: grid;
+}
+
+section div.mensagem {
+  font-size: 2rem;
+
+  padding: 0.7rem;
+}
+
+section div img {
+  width: 50%;
+  height: auto;
+  clip-path: circle();
+  margin: 1rem;
+}
+
+#idade {
+  font-size: 1.5rem;
+}
+
+div {
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
